@@ -1,0 +1,240 @@
+PS C:\Users\patsa\IdeaProjects\ABSA assessments> mvn clean test
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< org.ABSA:ABSA-assessments >----------------------
+[INFO] Building ABSA-assessments 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ ABSA-assessments ---
+[INFO] Deleting C:\Users\patsa\IdeaProjects\ABSA assessments\target
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ ABSA-assessments ---
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.13.0:compile (default-compile) @ ABSA-assessments ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 3 source files with javac [debug target 1.8] to target\classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[WARNING] source value 8 is obsolete and will be removed in a future release
+[WARNING] target value 8 is obsolete and will be removed in a future release
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ ABSA-assessments ---
+[INFO] Copying 7 resources from src\test\resources to target\test-classes
+[INFO]
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ ABSA-assessments ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 11 source files with javac [debug target 1.8] to target\test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[WARNING] source value 8 is obsolete and will be removed in a future release
+[WARNING] target value 8 is obsolete and will be removed in a future release
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO]
+[INFO] --- surefire:2.22.0:test (default-test) @ ABSA-assessments ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.22.0/surefire-junit47-2.22.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.22.0/surefire-junit47-2.22.0.pom (6.3 kB at 20 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.22.0/surefire-providers-2.22.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.22.0/surefire-providers-2.22.0.pom (2.5 kB at 39 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.22.0/common-junit48-2.22.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.22.0/common-junit48-2.22.0.pom (3.2 kB at 48 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.22.0/common-junit4-2.22.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.22.0/common-junit4-2.22.0.pom (2.1 kB at 36 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.22.0/common-junit3-2.22.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.22.0/common-junit3-2.22.0.pom (1.6 kB at 26 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.22.0/common-java5-2.22.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.22.0/common-java5-2.22.0.pom (2.7 kB at 58 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.9/maven-shared-utils-0.9.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.9/maven-shared-utils-0.9.pom (6.2 kB at 102 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/21/maven-shared-components-21.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/21/maven-shared-components-21.pom (5.1 kB at 90 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.pom (2.6 kB at 45 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.22.0/common-junit3-2.22.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.22.0/common-junit4-2.22.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.22.0/surefire-junit47-2.22.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.22.0/common-junit48-2.22.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.22.0/common-java5-2.22.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.22.0/common-junit4-2.22.0.jar (28 kB at 380 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.9/maven-shared-utils-0.9.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.22.0/common-junit3-2.22.0.jar (12 kB at 77 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.22.0/common-junit48-2.22.0.jar (22 kB at 144 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.22.0/common-java5-2.22.0.jar (51 kB at 271 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.9/maven-shared-utils-0.9.jar (172 kB at 1.3 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar (40 kB at 519 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.22.0/surefire-junit47-2.22.0.jar (160 kB at 624 kB/s)
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running As an authenticated user I want to fetch token
+
+@API-Regression-Test
+Scenario: Fetch token with valid authentication              # src/test/resources/features/GetToken.feature:5
+The clientId: AMQkif4JwEZx1dODDYFiGw0pSzUdqtoCwYUqwgfpCnK7I52aCD
+The secret: Ifz1BRa50BGrRBVD0z25dJ7BgDqNkm2ovDUoRNmZ
+  Given User has valid "Client-ID" and valid "Client-Secret" # stepDefinitions.GetToken.user_has_valid_and_valid(java.lang.String,java.lang.String)
+  When User submits a Token request                          # stepDefinitions.GetToken.user_submits_a_token_request()
+The Access token is: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJBTVFraWY0SndFWngxZE9ERFlGaUd3MHBTelVkcXRvQ3dZVXF3Z2ZwQ25LN0k1MmFDRCIsImp0aSI6IjYwYWY2NWMwMDcxMDZhYzAwYzIwNTVkZjY3ZjFkOTE5MGU0YjJjNWU
+yNjZlMmM0NzRjMTJkZjY5OGUzNTkzOTcyMzFiZjAzODZkNDcxMzkxIiwiaWF0IjoxNzUwNTQ3MjgxLCJuYmYiOjE3NTA1NDcyODEsImV4cCI6MTc1MDU1MDg4MSwic3ViIjoiIiwic2NvcGVzIjpbXX0.jQWOW9PJfVze_Nake33wsoNmwec2sVEDYTe__qSrI7n0IpGU
+VXj8Gbfyzde5sF7XY3f0XBSFpaPUj1hs89z8Vy86kfZQbhLeU2Hg7rdtx7Svv0OTCPIn2-8Zbhzmix0N6vDMz3b355HuIjDmsviEgbpgV1qxkUqTBdt_xAMVMXxoq29D38Z1XcxBgAm8rT2tP9rPWd1vAh2zDbveKxua35ZChc-yVNUAz1b2PpdI1_k8zTiAbH2uxXUvrQuCaid-FE2RJAkSkMGuMBeWgpRGWGQAAsHZvw3Y0GEtg09gY_mII6RKoPH4_sN7-L1SkCGArXklmtwWn2AJ2gN0FFsvBA
+  Then A token is received by User successfully              # stepDefinitions.GetToken.a_token_is_received_by_user_successfully()
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.394 s - in As an authenticated user I want to fetch token
+[INFO] Running As a User I want to search a Golden Retriever on Petfinder and confirm at least more than one
+
+@API-Regression-Test
+Scenario: Search Petfinder for Golden Retriever and confirm at least more than one                              # src/test/resources/features/searchGoldenRetriever.feature:8
+The clientId: AMQkif4JwEZx1dODDYFiGw0pSzUdqtoCwYUqwgfpCnK7I52aCD
+The secret: Ifz1BRa50BGrRBVD0z25dJ7BgDqNkm2ovDUoRNmZ
+  Given User has valid "Client-ID" and valid "Client-Secret"                                                    # stepDefinitions.GetToken.user_has_valid_and_valid(java.lang.String,java.lang.String)   
+  When User submits a Token request                                                                             # stepDefinitions.GetToken.user_submits_a_token_request()
+The Access token is: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJBTVFraWY0SndFWngxZE9ERFlGaUd3MHBTelVkcXRvQ3dZVXF3Z2ZwQ25LN0k1MmFDRCIsImp0aSI6ImU3N2EyZTQyY2E5NDU4MzFhNTg3ZTAwOTNjMDRmYmQyYzYyMjQ1N2U
+3NjBhMDljNjRhYjM5MTM1MzU3ZjllNjE1OWZhZjk0NTlhMjIxOWI0IiwiaWF0IjoxNzUwNTQ3MjgxLCJuYmYiOjE3NTA1NDcyODEsImV4cCI6MTc1MDU1MDg4MSwic3ViIjoiIiwic2NvcGVzIjpbXX0.zpJ3Myv_bZxHndxQZ25chosQM8E2t_Ij9OK5J-jEJrOLHXdH
+HrD8iDJmlZGHj54xaoMIMMW7Z_NZYTL2xyVl3t1OA0be54uwrIoMHoULqz3JNcpKH9Kx22U2q7z3UtpxFkWMBJ34E7RARSrq61Xe93E6KUzxRWjj8QqJ131BLkp9SLjPvlBrcObLI1Acg9teogNRJp4qlGBUtY4rmnlaOhTaw4cuhfHC9KnUjN_fRWPqsMfLsC99hyEZ17Hels-BqBJlj534RJRt0s1wFwAJOHPugaYUTCSkK9PdL28gvM66onM2B-q8U-nCyXNVcFPjXje2Qg_mjdQUrTL6iqPqVQ
+  Then A token is received by User successfully                                                                 # stepDefinitions.GetToken.a_token_is_received_by_user_successfully()
+new token is eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJBTVFraWY0SndFWngxZE9ERFlGaUd3MHBTelVkcXRvQ3dZVXF3Z2ZwQ25LN0k1MmFDRCIsImp0aSI6ImU5YTJjMTRkYzVmMjRjZDllNjJlYWI5Yjc2NzQ1NzJhODA3OTlkMzI0ZTEzNTE
+wOWY1YzNmZmEwOTRjMDVjNmE5NjY5NDJhOTU5ZGEzNTcxIiwiaWF0IjoxNzUwNTQ3MjgxLCJuYmYiOjE3NTA1NDcyODEsImV4cCI6MTc1MDU1MDg4MSwic3ViIjoiIiwic2NvcGVzIjpbXX0.ZFOsN7v6i3D1SLqTsgSknPyKBcLK5OnrqMwFTKiS1DkHOZdKoVHDnUor
+dR5clIg1wTu6A9rOTIeiyy3Euw5kEpPhvyX5Ua7AYnClFAua7dJ3faOsJQNFvhrd4TQ7U6jCPFCrH-FVXKmkAwnE7XeX6Fl0ZxIA4VNIfQmiRMqapJvpuaKZMl8kpvZSByhuJq4sW1lrg24kk4YvyJILOuwrLgYxGIbEvNP9ct9Py_pTNuLk5gRx6do7T8kDB5ZbN6MbR-rgRSunCRPOhcqSv04vevMbc9WrGMMwZ1lW01Wu5C7gqUTyjMQ7m8qQ9doW_3HtC50JUqFlDYGZzSe3BkNKyw
+  When User sends a request to get all "dog" breeds                                                             # stepDefinitions.GetDogBreeds.user_sends_a_request_to_get_all_breeds(java.lang.String)  
+This is the List of dog breeds at Petfinder[Affenpinscher, Afghan Hound, Airedale Terrier, Akbash, Akita, Alaskan Malamute, American Bulldog, American Bully, American Eskimo Dog, American Foxhound, Ame
+rican Hairless Terrier, American Staffordshire Terrier, American Water Spaniel, Anatolian Shepherd, Appenzell Mountain Dog, Aussiedoodle, Australian Cattle Dog / Blue Heeler, Australian Kelpie, Austral
+ian Shepherd, Australian Terrier, Basenji, Basset Hound, Beagle, Bearded Collie, Beauceron, Bedlington Terrier, Belgian Shepherd / Laekenois, Belgian Shepherd / Malinois, Belgian Shepherd / Sheepdog, B
+elgian Shepherd / Tervuren, Bernedoodle, Bernese Mountain Dog, Bichon Frise, Black and Tan Coonhound, Black Labrador Retriever, Black Mouth Cur, Black Russian Terrier, Bloodhound, Blue Lacy, Bluetick C
+oonhound, Boerboel, Bolognese, Border Collie, Border Terrier, Borzoi, Boston Terrier, Bouvier des Flandres, Boxer, Boykin Spaniel, Briard, Brittany Spaniel, Brussels Griffon, Bull Terrier, Bullmastiff,
+ Cairn Terrier, Canaan Dog, Cane Corso, Cardigan Welsh Corgi, Carolina Dog, Catahoula Leopard Dog, Cattle Dog, Caucasian Sheepdog / Caucasian Ovtcharka, Cavachon, Cavalier King Charles Spaniel, Cavapoo
+, Chesapeake Bay Retriever, Chihuahua, Chinese Crested Dog, Chinese Foo Dog, Chinook, Chiweenie, Chocolate Labrador Retriever, Chow Chow, Cirneco dell'Etna, Clumber Spaniel, Cockapoo, Cocker Spaniel, C
+ollie, Coonhound, Corgi, Coton de Tulear, Curly-Coated Retriever, Dachshund, Dalmatian, Dandie Dinmont Terrier, Doberman Pinscher, Dogo Argentino, Dogue de Bordeaux, Dutch Shepherd, English Bulldog, En
+glish Cocker Spaniel, English Coonhound, English Foxhound, English Pointer, English Setter, English Shepherd, English Springer Spaniel, English Toy Spaniel, Entlebucher, Eskimo Dog, Feist, Field Spanie
+l, Fila Brasileiro, Finnish Lapphund, Finnish Spitz, Flat-Coated Retriever, Fox Terrier, Foxhound, French Bulldog, Galgo Spanish Greyhound, German Pinscher, German Shepherd Dog, German Shorthaired Poin
+ter, German Spitz, German Wirehaired Pointer, Giant Schnauzer, Glen of Imaal Terrier, Golden Retriever, Goldendoodle, Gordon Setter, Great Dane, Great Pyrenees, Greater Swiss Mountain Dog, Greyhound, H
+amiltonstovare, Harrier, Havanese, Hound, Hovawart, Husky, Ibizan Hound, Icelandic Sheepdog, Illyrian Sheepdog, Irish Setter, Irish Terrier, Irish Water Spaniel, Irish Wolfhound, Italian Greyhound, Jac
+k Russell Terrier, Japanese Chin, Jindo, Kai Dog, Karelian Bear Dog, Keeshond, Kerry Blue Terrier, Kishu, Klee Kai, Komondor, Kuvasz, Kyi Leo, Labradoodle, Labrador Retriever, Lakeland Terrier, Lancash
+ire Heeler, Leonberger, Lhasa Apso, Lowchen, Lurcher, Maltese, Maltipoo, Manchester Terrier, Maremma Sheepdog, Mastiff, McNab, Miniature Bull Terrier, Miniature Dachshund, Miniature Pinscher, Miniature
+ Poodle, Miniature Schnauzer, Mixed Breed, Morkie, Mountain Cur, Mountain Dog, Munsterlander, Neapolitan Mastiff, New Guinea Singing Dog, Newfoundland Dog, Norfolk Terrier, Norwegian Buhund, Norwegian 
+Elkhound, Norwegian Lundehund, Norwich Terrier, Nova Scotia Duck Tolling Retriever, Old English Sheepdog, Otterhound, Papillon, Parson Russell Terrier, Patterdale Terrier / Fell Terrier, Pekingese, Pem
+broke Welsh Corgi, Peruvian Inca Orchid, Petit Basset Griffon Vendeen, Pharaoh Hound, Pit Bull Terrier, Plott Hound, Pointer, Polish Lowland Sheepdog, Pomeranian, Pomsky, Poodle, Portuguese Podengo, Po
+rtuguese Water Dog, Presa Canario, Pug, Puggle, Puli, Pumi, Pyrenean Shepherd, Rat Terrier, Redbone Coonhound, Retriever, Rhodesian Ridgeback, Rottweiler, Rough Collie, Saint Bernard, Saluki, Samoyed, 
+Sarplaninac, Schipperke, Schnauzer, Schnoodle, Scottish Deerhound, Scottish Terrier, Sealyham Terrier, Setter, Shar-Pei, Sheep Dog, Sheepadoodle, Shepherd, Shetland Sheepdog / Sheltie, Shiba Inu, Shih 
+poo, Shih Tzu, Shollie, Siberian Husky, Silky Terrier, Skye Terrier, Sloughi, Smooth Collie, Smooth Fox Terrier, South Russian Ovtcharka, Spaniel, Spanish Water Dog, Spinone Italiano, Spitz, Staffordsh
+ire Bull Terrier, Standard Poodle, Standard Schnauzer, Sussex Spaniel, Swedish Vallhund, Tennessee Treeing Brindle, Terrier, Thai Ridgeback, Tibetan Mastiff, Tibetan Spaniel, Tibetan Terrier, Tosa Inu,
+ Toy Fox Terrier, Toy Manchester Terrier, Treeing Walker Coonhound, Vizsla, Weimaraner, Welsh Springer Spaniel, Welsh Terrier, West Highland White Terrier / Westie, Wheaten Terrier, Whippet, White German Shepherd, Wire Fox Terrier, Wirehaired Dachshund, Wirehaired Pointing Griffon, Wirehaired Terrier, Xoloitzcuintli / Mexican Hairless, Yellow Labrador Retriever, Yorkshire Terrier]
+  Then A list of all "dog" breeds is received successfully                                                      # stepDefinitions.GetDogBreeds.a_list_of_all_breeds_is_received_successfully(java.lang.String)
+The Breed List contains Golden Retriever
+The number of matched breeds is 1
+  Then User searchs for "Golden Retriever" from the  List and verify if there is at least 1 from search results # stepDefinitions.SearchGoldenRetriver.user_searchs_for_from_the_list_and_verify_if_there_is_at_least_from_search_results(java.lang.String,java.lang.Integer)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.712 s - in As a User I want to search a Golden Retriever on Petfinder and confirm at least more than one
+[INFO] Running As an authenticated User I want to get List of all animal types
+
+@API-Regression-Test
+Scenario: Get the list of all animals at Petfinder           # src/test/resources/features/getListOfAnimals.feature:9
+The clientId: AMQkif4JwEZx1dODDYFiGw0pSzUdqtoCwYUqwgfpCnK7I52aCD
+The secret: Ifz1BRa50BGrRBVD0z25dJ7BgDqNkm2ovDUoRNmZ
+  Given User has valid "Client-ID" and valid "Client-Secret" # stepDefinitions.GetToken.user_has_valid_and_valid(java.lang.String,java.lang.String)
+  When User submits a Token request                          # stepDefinitions.GetToken.user_submits_a_token_request()
+The Access token is: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJBTVFraWY0SndFWngxZE9ERFlGaUd3MHBTelVkcXRvQ3dZVXF3Z2ZwQ25LN0k1MmFDRCIsImp0aSI6IjE0ZmI1MGQ0ZDgzNTg5YTI1OTM0NTM5NWIyMjFiODRiYmRkMjc2NTN
+kZDU2YWRkMzY3OWFmMzcxYjY5Y2I5ZTM3NTk5NDIyMGNmNDcyYWNmIiwiaWF0IjoxNzUwNTQ3MjgxLCJuYmYiOjE3NTA1NDcyODEsImV4cCI6MTc1MDU1MDg4MSwic3ViIjoiIiwic2NvcGVzIjpbXX0.mppab3jldsqnkg619TGadsibbp3F2mL0uDg-G5g8WAPKTmrz
+S_X5dtvAUF8MYGrjpVUv23fbkD_PfldHLjspjuTtl3Ig0JBlh3iVbW723HlC7GlZpyOeEl4YXWse3kKl2I70LzDsX21bulMZWu8o1ldb7qoY2eOkstftvZmwZe_fUp8BvndfCjrLy4eHbIODjZGWp0lKOGoHRjeMFVLKcOligAORC479oNqGMgOb_pIhvMk6z_7doEHT4WZTQG1uRkPs1hZ8yVXdl4tHmj-MU11EEXgl3DF9l9YMM3mjNzaweVBeEK4YzKEmMSS0Iqw8tJoGUwDYRHjV-IjBQGEPxA
+  Then A token is received by User successfully              # stepDefinitions.GetToken.a_token_is_received_by_user_successfully()
+new token is eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJBTVFraWY0SndFWngxZE9ERFlGaUd3MHBTelVkcXRvQ3dZVXF3Z2ZwQ25LN0k1MmFDRCIsImp0aSI6ImU5YTJjMTRkYzVmMjRjZDllNjJlYWI5Yjc2NzQ1NzJhODA3OTlkMzI0ZTEzNTE
+wOWY1YzNmZmEwOTRjMDVjNmE5NjY5NDJhOTU5ZGEzNTcxIiwiaWF0IjoxNzUwNTQ3MjgxLCJuYmYiOjE3NTA1NDcyODEsImV4cCI6MTc1MDU1MDg4MSwic3ViIjoiIiwic2NvcGVzIjpbXX0.ZFOsN7v6i3D1SLqTsgSknPyKBcLK5OnrqMwFTKiS1DkHOZdKoVHDnUor
+dR5clIg1wTu6A9rOTIeiyy3Euw5kEpPhvyX5Ua7AYnClFAua7dJ3faOsJQNFvhrd4TQ7U6jCPFCrH-FVXKmkAwnE7XeX6Fl0ZxIA4VNIfQmiRMqapJvpuaKZMl8kpvZSByhuJq4sW1lrg24kk4YvyJILOuwrLgYxGIbEvNP9ct9Py_pTNuLk5gRx6do7T8kDB5ZbN6MbR-rgRSunCRPOhcqSv04vevMbc9WrGMMwZ1lW01Wu5C7gqUTyjMQ7m8qQ9doW_3HtC50JUqFlDYGZzSe3BkNKyw
+  When User sends a get request to Petfinder site            # stepDefinitions.GetListOFAnimals.user_sends_a_get_request_to_petfinder_site()
+This is the List of Animals at Petfinder [Dog, Cat, Rabbit, Small & Furry, Horse, Bird, Scales, Fins & Other, Barnyard]
+  Then a List of animal types is returned successfully       # stepDefinitions.GetListOFAnimals.a_list_of_animal_types_is_returned_successfully()
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.84 s - in As an authenticated User I want to get List of all animal types
+[INFO] Running As an authenticated User I want verify that Dog is present in List of Animals
+
+@API-Regression-Test
+Scenario: Verify that Dog is part of a List of all animals at Petfinder # src/test/resources/features/verifyDog.feature:9
+The clientId: AMQkif4JwEZx1dODDYFiGw0pSzUdqtoCwYUqwgfpCnK7I52aCD
+The secret: Ifz1BRa50BGrRBVD0z25dJ7BgDqNkm2ovDUoRNmZ
+  Given User has valid "Client-ID" and valid "Client-Secret"            # stepDefinitions.GetToken.user_has_valid_and_valid(java.lang.String,java.lang.String)
+  When User submits a Token request                                     # stepDefinitions.GetToken.user_submits_a_token_request()
+The Access token is: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJBTVFraWY0SndFWngxZE9ERFlGaUd3MHBTelVkcXRvQ3dZVXF3Z2ZwQ25LN0k1MmFDRCIsImp0aSI6ImU5YTJjMTRkYzVmMjRjZDllNjJlYWI5Yjc2NzQ1NzJhODA3OTlkMzI
+0ZTEzNTEwOWY1YzNmZmEwOTRjMDVjNmE5NjY5NDJhOTU5ZGEzNTcxIiwiaWF0IjoxNzUwNTQ3MjgxLCJuYmYiOjE3NTA1NDcyODEsImV4cCI6MTc1MDU1MDg4MSwic3ViIjoiIiwic2NvcGVzIjpbXX0.ZFOsN7v6i3D1SLqTsgSknPyKBcLK5OnrqMwFTKiS1DkHOZdK
+oVHDnUordR5clIg1wTu6A9rOTIeiyy3Euw5kEpPhvyX5Ua7AYnClFAua7dJ3faOsJQNFvhrd4TQ7U6jCPFCrH-FVXKmkAwnE7XeX6Fl0ZxIA4VNIfQmiRMqapJvpuaKZMl8kpvZSByhuJq4sW1lrg24kk4YvyJILOuwrLgYxGIbEvNP9ct9Py_pTNuLk5gRx6do7T8kDB5ZbN6MbR-rgRSunCRPOhcqSv04vevMbc9WrGMMwZ1lW01Wu5C7gqUTyjMQ7m8qQ9doW_3HtC50JUqFlDYGZzSe3BkNKyw
+  Then A token is received by User successfully                         # stepDefinitions.GetToken.a_token_is_received_by_user_successfully()
+new token is eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJBTVFraWY0SndFWngxZE9ERFlGaUd3MHBTelVkcXRvQ3dZVXF3Z2ZwQ25LN0k1MmFDRCIsImp0aSI6ImU5YTJjMTRkYzVmMjRjZDllNjJlYWI5Yjc2NzQ1NzJhODA3OTlkMzI0ZTEzNTE
+wOWY1YzNmZmEwOTRjMDVjNmE5NjY5NDJhOTU5ZGEzNTcxIiwiaWF0IjoxNzUwNTQ3MjgxLCJuYmYiOjE3NTA1NDcyODEsImV4cCI6MTc1MDU1MDg4MSwic3ViIjoiIiwic2NvcGVzIjpbXX0.ZFOsN7v6i3D1SLqTsgSknPyKBcLK5OnrqMwFTKiS1DkHOZdKoVHDnUor
+dR5clIg1wTu6A9rOTIeiyy3Euw5kEpPhvyX5Ua7AYnClFAua7dJ3faOsJQNFvhrd4TQ7U6jCPFCrH-FVXKmkAwnE7XeX6Fl0ZxIA4VNIfQmiRMqapJvpuaKZMl8kpvZSByhuJq4sW1lrg24kk4YvyJILOuwrLgYxGIbEvNP9ct9Py_pTNuLk5gRx6do7T8kDB5ZbN6MbR-rgRSunCRPOhcqSv04vevMbc9WrGMMwZ1lW01Wu5C7gqUTyjMQ7m8qQ9doW_3HtC50JUqFlDYGZzSe3BkNKyw
+  When User sends a get request to Petfinder site                       # stepDefinitions.GetListOFAnimals.user_sends_a_get_request_to_petfinder_site()
+This is the List of Animals at Petfinder [Dog, Cat, Rabbit, Small & Furry, Horse, Bird, Scales, Fins & Other, Barnyard]
+  Then a List of animal types is returned successfully                  # stepDefinitions.GetListOFAnimals.a_list_of_animal_types_is_returned_successfully()
+List contains Dog
+  Then verify that "Dog" is part of the List retrieved                  # stepDefinitions.VerifyDog.verify_that_is_part_of_the_list_retrieved(java.lang.String)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.865 s - in As an authenticated User I want verify that Dog is present in List of Animals
+[INFO] Running As a User I want to get all dog breeds on Petfinder
+
+@API-Regression-Test
+Scenario: Get the all dog breeds on Petfinder                # src/test/resources/features/getDogBreeds.feature:8
+The clientId: AMQkif4JwEZx1dODDYFiGw0pSzUdqtoCwYUqwgfpCnK7I52aCD
+The secret: Ifz1BRa50BGrRBVD0z25dJ7BgDqNkm2ovDUoRNmZ
+  Given User has valid "Client-ID" and valid "Client-Secret" # stepDefinitions.GetToken.user_has_valid_and_valid(java.lang.String,java.lang.String)
+  When User submits a Token request                          # stepDefinitions.GetToken.user_submits_a_token_request()
+The Access token is: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJBTVFraWY0SndFWngxZE9ERFlGaUd3MHBTelVkcXRvQ3dZVXF3Z2ZwQ25LN0k1MmFDRCIsImp0aSI6IjhhYjA2OTM2MDgwZTdmZmMxYzMwMTExOWE5NGEzYTMxMDIxNzk0MTB
+kZGU4Yzg2MDIzNjE4ZTlhOTM3NWQ5NjAwMmVhY2EyYWYxZDM3NzgyIiwiaWF0IjoxNzUwNTQ3MjgxLCJuYmYiOjE3NTA1NDcyODEsImV4cCI6MTc1MDU1MDg4MSwic3ViIjoiIiwic2NvcGVzIjpbXX0.W4Dkmf876Du_72fwwcB11U0pjPIMWaGRDO7XFxtzfc9FjQth
+Jd2oFzEeufLYgixFTdU9iOlWTbO86WB2TfTZqC3qbW5Puy-mt88Ej7HsG8rG9DCCetm6aG37vNa_64qksK6nZS-DQrvga2HvHAybwcp_u6r0JPQ6TpuyYIuKCu-mkFa3GtgmMf6OzEkKwEM90uPU5SaGq1SIeGYLDGnf5ByTLpkYWb8N8ZnTAPsjcNhtVegHg5mPcmsZzA-wzp1KjZyaJNJWdHHKngOwDp8uH3VsOZo4aT1tGjYqpX9AwX0B1vQPYf56BtPjeksqtbLRM85-1Dlpm8c4uyoGLKsKAw
+  Then A token is received by User successfully              # stepDefinitions.GetToken.a_token_is_received_by_user_successfully()
+new token is eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJBTVFraWY0SndFWngxZE9ERFlGaUd3MHBTelVkcXRvQ3dZVXF3Z2ZwQ25LN0k1MmFDRCIsImp0aSI6IjhhYjA2OTM2MDgwZTdmZmMxYzMwMTExOWE5NGEzYTMxMDIxNzk0MTBkZGU4Yzg
+2MDIzNjE4ZTlhOTM3NWQ5NjAwMmVhY2EyYWYxZDM3NzgyIiwiaWF0IjoxNzUwNTQ3MjgxLCJuYmYiOjE3NTA1NDcyODEsImV4cCI6MTc1MDU1MDg4MSwic3ViIjoiIiwic2NvcGVzIjpbXX0.W4Dkmf876Du_72fwwcB11U0pjPIMWaGRDO7XFxtzfc9FjQthJd2oFzEe
+ufLYgixFTdU9iOlWTbO86WB2TfTZqC3qbW5Puy-mt88Ej7HsG8rG9DCCetm6aG37vNa_64qksK6nZS-DQrvga2HvHAybwcp_u6r0JPQ6TpuyYIuKCu-mkFa3GtgmMf6OzEkKwEM90uPU5SaGq1SIeGYLDGnf5ByTLpkYWb8N8ZnTAPsjcNhtVegHg5mPcmsZzA-wzp1KjZyaJNJWdHHKngOwDp8uH3VsOZo4aT1tGjYqpX9AwX0B1vQPYf56BtPjeksqtbLRM85-1Dlpm8c4uyoGLKsKAw
+  When User sends a request to get all "dog" breeds          # stepDefinitions.GetDogBreeds.user_sends_a_request_to_get_all_breeds(java.lang.String)
+This is the List of dog breeds at Petfinder[Affenpinscher, Afghan Hound, Airedale Terrier, Akbash, Akita, Alaskan Malamute, American Bulldog, American Bully, American Eskimo Dog, American Foxhound, Ame
+rican Hairless Terrier, American Staffordshire Terrier, American Water Spaniel, Anatolian Shepherd, Appenzell Mountain Dog, Aussiedoodle, Australian Cattle Dog / Blue Heeler, Australian Kelpie, Austral
+ian Shepherd, Australian Terrier, Basenji, Basset Hound, Beagle, Bearded Collie, Beauceron, Bedlington Terrier, Belgian Shepherd / Laekenois, Belgian Shepherd / Malinois, Belgian Shepherd / Sheepdog, B
+elgian Shepherd / Tervuren, Bernedoodle, Bernese Mountain Dog, Bichon Frise, Black and Tan Coonhound, Black Labrador Retriever, Black Mouth Cur, Black Russian Terrier, Bloodhound, Blue Lacy, Bluetick C
+oonhound, Boerboel, Bolognese, Border Collie, Border Terrier, Borzoi, Boston Terrier, Bouvier des Flandres, Boxer, Boykin Spaniel, Briard, Brittany Spaniel, Brussels Griffon, Bull Terrier, Bullmastiff,
+ Cairn Terrier, Canaan Dog, Cane Corso, Cardigan Welsh Corgi, Carolina Dog, Catahoula Leopard Dog, Cattle Dog, Caucasian Sheepdog / Caucasian Ovtcharka, Cavachon, Cavalier King Charles Spaniel, Cavapoo
+, Chesapeake Bay Retriever, Chihuahua, Chinese Crested Dog, Chinese Foo Dog, Chinook, Chiweenie, Chocolate Labrador Retriever, Chow Chow, Cirneco dell'Etna, Clumber Spaniel, Cockapoo, Cocker Spaniel, C
+ollie, Coonhound, Corgi, Coton de Tulear, Curly-Coated Retriever, Dachshund, Dalmatian, Dandie Dinmont Terrier, Doberman Pinscher, Dogo Argentino, Dogue de Bordeaux, Dutch Shepherd, English Bulldog, En
+glish Cocker Spaniel, English Coonhound, English Foxhound, English Pointer, English Setter, English Shepherd, English Springer Spaniel, English Toy Spaniel, Entlebucher, Eskimo Dog, Feist, Field Spanie
+l, Fila Brasileiro, Finnish Lapphund, Finnish Spitz, Flat-Coated Retriever, Fox Terrier, Foxhound, French Bulldog, Galgo Spanish Greyhound, German Pinscher, German Shepherd Dog, German Shorthaired Poin
+ter, German Spitz, German Wirehaired Pointer, Giant Schnauzer, Glen of Imaal Terrier, Golden Retriever, Goldendoodle, Gordon Setter, Great Dane, Great Pyrenees, Greater Swiss Mountain Dog, Greyhound, H
+amiltonstovare, Harrier, Havanese, Hound, Hovawart, Husky, Ibizan Hound, Icelandic Sheepdog, Illyrian Sheepdog, Irish Setter, Irish Terrier, Irish Water Spaniel, Irish Wolfhound, Italian Greyhound, Jac
+k Russell Terrier, Japanese Chin, Jindo, Kai Dog, Karelian Bear Dog, Keeshond, Kerry Blue Terrier, Kishu, Klee Kai, Komondor, Kuvasz, Kyi Leo, Labradoodle, Labrador Retriever, Lakeland Terrier, Lancash
+ire Heeler, Leonberger, Lhasa Apso, Lowchen, Lurcher, Maltese, Maltipoo, Manchester Terrier, Maremma Sheepdog, Mastiff, McNab, Miniature Bull Terrier, Miniature Dachshund, Miniature Pinscher, Miniature
+ Poodle, Miniature Schnauzer, Mixed Breed, Morkie, Mountain Cur, Mountain Dog, Munsterlander, Neapolitan Mastiff, New Guinea Singing Dog, Newfoundland Dog, Norfolk Terrier, Norwegian Buhund, Norwegian 
+Elkhound, Norwegian Lundehund, Norwich Terrier, Nova Scotia Duck Tolling Retriever, Old English Sheepdog, Otterhound, Papillon, Parson Russell Terrier, Patterdale Terrier / Fell Terrier, Pekingese, Pem
+broke Welsh Corgi, Peruvian Inca Orchid, Petit Basset Griffon Vendeen, Pharaoh Hound, Pit Bull Terrier, Plott Hound, Pointer, Polish Lowland Sheepdog, Pomeranian, Pomsky, Poodle, Portuguese Podengo, Po
+rtuguese Water Dog, Presa Canario, Pug, Puggle, Puli, Pumi, Pyrenean Shepherd, Rat Terrier, Redbone Coonhound, Retriever, Rhodesian Ridgeback, Rottweiler, Rough Collie, Saint Bernard, Saluki, Samoyed, 
+Sarplaninac, Schipperke, Schnauzer, Schnoodle, Scottish Deerhound, Scottish Terrier, Sealyham Terrier, Setter, Shar-Pei, Sheep Dog, Sheepadoodle, Shepherd, Shetland Sheepdog / Sheltie, Shiba Inu, Shih 
+poo, Shih Tzu, Shollie, Siberian Husky, Silky Terrier, Skye Terrier, Sloughi, Smooth Collie, Smooth Fox Terrier, South Russian Ovtcharka, Spaniel, Spanish Water Dog, Spinone Italiano, Spitz, Staffordsh
+ire Bull Terrier, Standard Poodle, Standard Schnauzer, Sussex Spaniel, Swedish Vallhund, Tennessee Treeing Brindle, Terrier, Thai Ridgeback, Tibetan Mastiff, Tibetan Spaniel, Tibetan Terrier, Tosa Inu,
+ Toy Fox Terrier, Toy Manchester Terrier, Treeing Walker Coonhound, Vizsla, Weimaraner, Welsh Springer Spaniel, Welsh Terrier, West Highland White Terrier / Westie, Wheaten Terrier, Whippet, White German Shepherd, Wire Fox Terrier, Wirehaired Dachshund, Wirehaired Pointing Griffon, Wirehaired Terrier, Xoloitzcuintli / Mexican Hairless, Yellow Labrador Retriever, Yorkshire Terrier]
+  Then A list of all "dog" breeds is received successfully   # stepDefinitions.GetDogBreeds.a_list_of_all_breeds_is_received_successfully(java.lang.String)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.775 s - in As a User I want to get all dog breeds on Petfinder
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.812 s
+[INFO] Finished at: 2025-06-22T01:08:04+02:00
+[INFO] ------------------------------------------------------------------------
+PS C:\Users\patsa\IdeaProjects\ABSA assessments>
+
+
+
+
+
+
+
+
